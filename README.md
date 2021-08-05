@@ -23,7 +23,11 @@
 - ⚡ Fun fact: I love learning just about anything that's to do with computers and math >.>
 
 <br>
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <h3  align='center'>📬 Find me around the web 🌎 </h3>
 <br>
