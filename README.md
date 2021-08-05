@@ -63,18 +63,25 @@
 <br>
 <br>
 </p>
-<center><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=blue-green"></center>
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=6" />
+
+</p>
 
 ---
 
 <h3 align="center">My Activity</h3>
+<br>
 
-![Visits](http://estruyf-github.azurewebsites.net/api/VisitorHit?user=NovusEdge&repo=NovusEdge&countColorcountColor&countColor=%237B1E7A)
-
-<img src="https://github-readme-stats.vercel.app/api?username=NovusEdge&theme=blue-green">
+![NovusEdge’s GutHub Stats](https://github-readme-stats.vercel.app/api?username=NovusEdge&theme=tokyonight&show_icons=true&count_private=false&show_icons=true)
 
 <br>
 
+![Visits](http://estruyf-github.azurewebsites.net/api/VisitorHit?user=NovusEdge&repo=NovusEdge&countColorcountColor&countColor=%237B1E7A)
+
+<br>
 <div align="center">
 <h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories!</h3>
 </div><img src="media/wave.svg" />
