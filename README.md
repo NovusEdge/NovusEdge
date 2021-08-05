@@ -46,7 +46,7 @@
 
 ---
 
-<h3 align="center"> Languages and Tools I use</h3>
+<h3 align="center">Languages and Tools I use</h3>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
@@ -67,7 +67,7 @@
 
 ---
 
-#### My Activity:
+<h3 align="center">My Activity</h3>
 
 ![Visits](http://estruyf-github.azurewebsites.net/api/VisitorHit?user=NovusEdge&repo=NovusEdge&countColorcountColor&countColor=%237B1E7A)
 
