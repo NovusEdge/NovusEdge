@@ -82,7 +82,7 @@
 <br>
 <br>
 
-<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=NovusEdge&repo=NovusEdge&countColorcountColor&countColor=%237B1E7A" />
+<img src="https://api.visitorbadge.io/api/visitors?user=NovusEdge&repo=NovusEdge&label=Visitors&countColor=%232ccce4" />
 
 </p>
 
