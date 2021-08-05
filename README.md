@@ -1,11 +1,11 @@
-![Matrix SVG](media/matrix.svg)
+![Matrix SVG](assets/matrix.svg)
 
 
 <br>
 <br>
 
 
-<img align="right" height="340px" alt="GIF" src="media/Profile.gif" />
+<img align="right" height="340px" alt="GIF" src="assets/Profile.gif" />
 
 <br>
 <br>
@@ -32,7 +32,7 @@
 <h3  align='center'>📬 Find me around the web 🌎 </h3>
 <br>
 <p align='center'>
-<a href="https://app.hackthebox.eu/profile/672731"><img src="https://img.shields.io/badge/HackTheBox%20-%23339903.svg?&style=for-the-badge&logo=HTB&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://app.hackthebox.eu/profile/672731"><img src="https://img.shields.io/badge/HackTheBox%20-%23339903.svg?&style=for-the-badge&logo=hackthebox&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/novus-edge-629093200/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:novusedge0@gmail.com?subject=Hi!"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:oniontempt@protonmail.ch?subject=Hi!"><img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -59,8 +59,9 @@
 <br>
 <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Docker-0095D5?&style=for-the-badge&logo=docker&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
-<br>
+<br>    
 <br>
 </p>
 
@@ -70,9 +71,22 @@
 
 </p>
 
----
+<br>
+<br>
 
-<h3 align="center">My Activity</h3>
+<h3 align="center">💻 Workspace Specs</h3>
+<p align="center">
+<br>
+<img src="https://img.shields.io/badge/NVIDIA-GeForce_RTX_2060-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Intel-Core_i7_10700K-0071C5?style=for-the-badge&logo=intel&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Linux-Kali_2021.2-d42bf2?style=for-the-badge&logo=linux&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<br>
+<br>
+
+<h3 align="center">Activity</h3>
+
 <br>
 
 <p align="center">
@@ -90,4 +104,4 @@
 
 <div align="center">
 <h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories!</h3>
-</div><img src="media/wave.svg" />
+</div><img src="assets/wave.svg" />
