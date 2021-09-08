@@ -106,6 +106,16 @@
 
 </p>
 
+
+<br>
+
+<p align="center">
+
+<img href="https://ko-fi.com/Y8Y864JWT" src="https://ko-fi.com/img/githubbutton_sm.svg" />
+<img href="https://www.patreon.com/bePatron?u=61331212" src="https://img.shields.io/badge/Support_me_on_Patreon-%23D14836?style=for-the-badge&logo=patreon&logoColor=white" />
+
+</p>
+
 <br>
 
 <div align="center">
