@@ -10,10 +10,6 @@
 
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 
 <h3  align='center'>📬 Find me around the web 🌎 </h3>
 <br>
