@@ -5,8 +5,8 @@
 <br>
 
 <p align="center">
-<img height="340px" alt="GIF" src="assets/Profile.gif" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=6" />
+<img height="340px" alt="GIF" src="assets/Profile.gif" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=7" />
 </p>
 
 <br>
