@@ -4,7 +4,9 @@
 <br>
 <br>
 
-&emsp;&emsp;<img align="center" height="340px" alt="GIF" src="assets/Profile.gif" />
+<p align="center">
+<img height="340px" alt="GIF" src="assets/Profile.gif" />
+</p>
 
 <br>
 <br>
