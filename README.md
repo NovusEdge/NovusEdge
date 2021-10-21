@@ -12,6 +12,32 @@
 <br>
 <br>
 
+<h3 align="center">Activity</h3>
+
+<br>
+
+<p align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=NovusEdge&theme=tokyonight&show_icons=true&count_private=false&show_icons=true" />
+
+<br>
+<br>
+
+<img src="https://api.visitorbadge.io/api/visitors?user=NovusEdge&repo=NovusEdge&label=Visitors&countColor=%232ccce4" />
+
+</p>
+
+
+<br>
+
+<p align="center">
+<a href="https://ko-fi.com/Y8Y864JWT"><img src="https://ko-fi.com/img/githubbutton_sm.svg"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.patreon.com/bePatron?u=61331212"><img src="https://img.shields.io/badge/Support_me_on_Patreon-%23D14836?style=for-the-badge&logo=patreon&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<br>
+<br>
+
 <h3  align='center'>📬 Find me around the web 🌎 </h3>
 <br>
 <p align='center'>
@@ -67,30 +93,6 @@
 
 <br>
 <br>
-
-<h3 align="center">Activity</h3>
-
-<br>
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=NovusEdge&theme=tokyonight&show_icons=true&count_private=false&show_icons=true" />
-
-<br>
-<br>
-
-<img src="https://api.visitorbadge.io/api/visitors?user=NovusEdge&repo=NovusEdge&label=Visitors&countColor=%232ccce4" />
-
-</p>
-
-
-<br>
-
-<p align="center">
-<a href="https://ko-fi.com/Y8Y864JWT"><img src="https://ko-fi.com/img/githubbutton_sm.svg"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.patreon.com/bePatron?u=61331212"><img src="https://img.shields.io/badge/Support_me_on_Patreon-%23D14836?style=for-the-badge&logo=patreon&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
 <br>
 
 <div align="center">
