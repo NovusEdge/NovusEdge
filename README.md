@@ -36,7 +36,6 @@
 </p>
 
 <br>
-<br>
 
 <h3  align='center'>📬 Find me around the web 🌎 </h3>
 <br>
@@ -76,11 +75,9 @@
 <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
-<br>    
-<br>
 </p>
 
-<br>
+<br>    
 <br>
 
 <h3 align="center">💻 Workspace Specs</h3>
@@ -91,7 +88,6 @@
 <img src="https://img.shields.io/badge/Linux-Kali_2021.2-d42bf2?style=for-the-badge&logo=linux&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<br>
 <br>
 <br>
 
