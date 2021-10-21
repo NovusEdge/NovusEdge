@@ -77,9 +77,6 @@
 <br>
 </p>
 
-<br>    
-<br>
-
 <h3 align="center">💻 Workspace Specs</h3>
 <p align="center">
 <br>
