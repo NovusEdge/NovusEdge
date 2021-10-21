@@ -4,23 +4,7 @@
 <br>
 <br>
 
-
-<img align="right" height="340px" alt="GIF" src="assets/Profile.gif" />
-
-<br>
-<br>
-
-- 🔭 I’m currently working on improving my skills :grin:
-
-<!-- - 🌱 I’m currently learning  -->
-- 👯 I’m looking to collaborate with other Developers
-<!-- - 🤔 I’m looking for help with ... -->
-
-- 💬 Ask me about anything, I am happy to help :D
-
-- 📫 How to reach me: [Let's get in touch!](https://www.linkedin.com/in/novus-edge-629093200/)
-
-- ⚡ Fun fact: I love learning just about anything that's to do with computers and math >.>
+<img align="center" height="340px" alt="GIF" src="assets/Profile.gif" />
 
 <br>
 <br>
