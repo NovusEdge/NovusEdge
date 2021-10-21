@@ -77,6 +77,8 @@
 <br>
 </p>
 
+---
+
 <h3 align="center">💻 Workspace Specs</h3>
 <p align="center">
 <br>
@@ -86,7 +88,8 @@
 </p>
 
 <br>
-<br>
+
+---
 
 <div align="center">
 <h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories!</h3>
