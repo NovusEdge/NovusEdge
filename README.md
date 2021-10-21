@@ -37,6 +37,8 @@
 
 <br>
 
+---
+
 <h3  align='center'>📬 Find me around the web 🌎 </h3>
 <br>
 <p align='center'>
