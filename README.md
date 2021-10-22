@@ -20,11 +20,6 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=NovusEdge&theme=tokyonight&show_icons=true&count_private=false&show_icons=true" />
 
-<br>
-<br>
-
-<img src="https://api.visitorbadge.io/api/visitors?user=NovusEdge&repo=NovusEdge&label=Visitors&countColor=%232ccce4" />
-
 </p>
 
 
