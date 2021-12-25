@@ -22,14 +22,6 @@
 
 </p>
 
-
-<br>
-
-<p align="center">
-<a href="https://ko-fi.com/Y8Y864JWT"><img src="https://ko-fi.com/img/githubbutton_sm.svg"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.patreon.com/bePatron?u=61331212"><img src="https://img.shields.io/badge/Support_me_on_Patreon-%23D14836?style=for-the-badge&logo=patreon&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
 <br>
 
 ---
