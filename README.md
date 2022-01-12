@@ -39,7 +39,7 @@
 <a href="https://ctflearn.com/user/oniontempt"><img src="https://img.shields.io/badge/CTFLearn-000000?style=for-the-badge&logo=square&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://discordapp.com/users/650299646681284608"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://app.slack.com/client/T02A30SFRB8/D02A6MU437F/user_profile/U02AZCEGYM6"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://tryhackme.com/p/oniontempt"><img src="https://img.shields.io/badge/TryHackMe-033142.svg?&style=for-the-badge&logo=tryhackme&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://tryhackme.com/p/NovusEdge"><img src="https://img.shields.io/badge/TryHackMe-033142.svg?&style=for-the-badge&logo=tryhackme&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 <br>
 <a href="https://www.codewars.com/users/NovusEdge"><img src="https://img.shields.io/badge/Codewars-%23D53410.svg?&style=for-the-badge&logo=codewars&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
