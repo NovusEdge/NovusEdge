@@ -61,15 +61,15 @@
 
 <div align="center">
 <h3 align="center"> For Donations and Finance </h3>
-<img src="assets/eth-qr-code.png" height=200px width=200px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/btc-qr-code.png" height=200px width=200px/>
+<img src="assets/eth-qr-code.png" height=256px width=256px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/btc-qr-code.png" height=256px width=256px/>
 
 <br>
 <br>
 <br>
 
-<img src="assets/trx-qr-code.png" height=200px width=200px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/atom-qr-code.png" height=200px width=200px/>
+<img src="assets/trx-qr-code.png" height=256px width=256px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/atom-qr-code.png" height=256px width=256px/>
 </div>
 
 <br>
