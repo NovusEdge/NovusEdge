@@ -1,25 +1,13 @@
-![Matrix SVG](assets/matrix.svg)
-
+<p align="center">
+<img src="assets/matrix.svg">
+</p>
 
 <br>
 <br>
 
 <p align="center">
 <img height="340px" alt="GIF" src="assets/Profile.gif" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=7" />
-</p>
-
-<br>
-<br>
-
-<h3 align="center">Activity</h3>
-
-<br>
-
-<p align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=NovusEdge&theme=tokyonight&show_icons=true&count_private=false&show_icons=true" />
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=5" />
 </p>
 
 <br>
@@ -29,23 +17,14 @@
 <h3  align='center'>📬 Find me around the web 🌎 </h3>
 <br>
 <p align='center'>
-<a href="https://app.hackthebox.com/profile/408200"><img src="https://img.shields.io/badge/HackTheBox%20-%23339903.svg?&style=for-the-badge&logo=hackthebox&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/aliasgarkhimani/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="mailto:novusedge0@gmail.com?subject=Hi!"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:oniontempt@protonmail.ch?subject=Hi!"><img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://msng.link/o/?NovusEdge=tg"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 <br>
-<a href="https://ctflearn.com/user/oniontempt"><img src="https://img.shields.io/badge/CTFLearn-000000?style=for-the-badge&logo=square&logoColor=white"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://discordapp.com/users/650299646681284608"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://app.slack.com/client/T02A30SFRB8/D02A6MU437F/user_profile/U02AZCEGYM6"><img src="https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://www.codewars.com/users/NovusEdge"><img src="https://img.shields.io/badge/Codewars-%23D53410.svg?&style=for-the-badge&logo=codewars&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-
-<br>
-<a href="https://projecteuler.chat/memberlist.php?mode=viewprofile&u=19078"><img src="https://img.shields.io/badge/Project_Euler_Forums-7289DA.svg?&style=for-the-badge&logo=square&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://tryhackme.com/p/NovusEdge"><img src="https://tryhackme-badges.s3.amazonaws.com/NovusEdge.png" alt="TryHackMe" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://tryhackme.com/p/NovusEdge"><img src="https://img.shields.io/badge/TryHackMe-%23D14836?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
-<!-- https://projecteuler.chat/memberlist.php?mode=viewprofile&u=19078 -->
 
 ---
 
@@ -73,10 +52,42 @@
 <br>
 <img src="https://img.shields.io/badge/NVIDIA-GeForce_RTX_2060-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Intel-Core_i7_10700K-0071C5?style=for-the-badge&logo=intel&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Linux-Kali_2021.2-d42bf2?style=for-the-badge&logo=linux&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Linux-ParrotOS_5.0_Electro_Ara-d42bf2?style=for-the-badge&logo=linux&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
+
+---
+
+<div align="center">
+<h3 align="center"> For Donations and Finance </h3>
+<img src="assets/eth-qr-code.png" height=200px width=200px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/btc-qr-code.png" height=200px width=200px/>
+
+<br>
+<br>
+<br>
+
+<img src="assets/trx-qr-code.png" height=200px width=200px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="assets/atom-qr-code.png" height=200px width=200px/>
+</div>
+
+<br>
+<br>
+
+<p align="center">
+<br>
+<img src="https://img.shields.io/badge/ETH-0xd5790505dd28631054df7c8cfb5df7de061c10e9-716B94?style=flat&logo=ethereum&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<br>
+<img src="https://img.shields.io/badge/BTC-bc1q3csr92qldr28kkp080j5dvnjuk26rmm43265u7-F7931A?style=flat&logo=bitcoin&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<br>
+<img src="https://img.shields.io/badge/TRX-TLKY2zUS19v8D1Ppqayfdby3NwqgrhLJ8N-0D0C1C?style=flat" />&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<br>
+<img src="https://img.shields.io/badge/ATOM-cosmos14l3uatzs4cfg2tl9jjeme9355sx3l8ls4kretj-c198c1?style=flat&logo=atom&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
 
 ---
 
