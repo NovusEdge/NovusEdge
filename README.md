@@ -70,6 +70,12 @@
 
 <img src="assets/trx-qr-code.png" height=256px width=256px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="assets/atom-qr-code.png" height=256px width=256px/>
+
+<br>
+<br>
+<br>
+
+<img src="assets/xmr-qr-code.png" height=256px width=256px/>
 </div>
 
 <br>
@@ -87,6 +93,10 @@
 <br>
 <br>
 <a href="https://atomscan.com/accounts/cosmos14l3uatzs4cfg2tl9jjeme9355sx3l8ls4kretj"><img src="https://img.shields.io/badge/ATOM-cosmos14l3uatzs4cfg2tl9jjeme9355sx3l8ls4kretj-c198c1?style=flat&logo=atom&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<br>
+<br>
+<a href="https://www.exploremonero.com/search?q=monero%3A49qHyM9Jh3B5csihrEb6rAdk3ZtNJtBuNdGPtP2H4DnwG75tz3Ad9Q75JxMH1N37TJhw7UF5BXtBsijQckMTN7j4LYVRqPG"><img src="https://img.shields.io/badge/Monero-49qHyM9Jh3B5csihrEb6rAdk3ZtNJtBuNdGPtP2H4DnwG75tz3Ad9Q75JxMH1N37TJhw7UF5BXtBsijQckMTN7j4LYVRqPG-ff6600?style=flat&logo=monero&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
+
 </p>
 
 ---
