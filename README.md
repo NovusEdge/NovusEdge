@@ -52,7 +52,7 @@
 <br>
 <img src="https://img.shields.io/badge/NVIDIA-GeForce_RTX_2060-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Intel-Core_i7_10700K-0071C5?style=for-the-badge&logo=intel&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Linux-ParrotOS_5.0_Electro_Ara-d42bf2?style=for-the-badge&logo=linux&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Linux-Kali_2022.3-d42bf2?style=for-the-badge&logo=linux&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
