@@ -42,6 +42,7 @@
 <img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Rust-D86631?style=for-the-badge&logo=rust&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
 <br>
 </p>
 
