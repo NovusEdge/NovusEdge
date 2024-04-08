@@ -61,48 +61,5 @@
 ---
 
 <div align="center">
-<h3 align="center"> For Donations and Finance </h3>
-<img src="assets/eth-qr-code.png" height=256px width=256px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/btc-qr-code.png" height=256px width=256px/>
-
-<br>
-<br>
-<br>
-
-<img src="assets/trx-qr-code.png" height=256px width=256px/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="assets/atom-qr-code.png" height=256px width=256px/>
-
-<br>
-<br>
-<br>
-
-<img src="assets/xmr-qr-code.png" height=256px width=256px/>
-</div>
-
-<br>
-<br>
-
-<p align="center">
-<br>
-<a href="https://www.blockchain.com/eth/address/0xd5790505dd28631054df7c8cfb5df7de061c10e9"><img src="https://img.shields.io/badge/ETH-0xd5790505dd28631054df7c8cfb5df7de061c10e9-716B94?style=flat&logo=ethereum&logoColor=white" target="_blank" rel="noopener noreferrer" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
-<a href="https://www.blockchain.com/btc/address/bc1q3csr92qldr28kkp080j5dvnjuk26rmm43265u7"><img src="https://img.shields.io/badge/BTC-bc1q3csr92qldr28kkp080j5dvnjuk26rmm43265u7-F7931A?style=flat&logo=bitcoin&logoColor=white" target="_blank" rel="noopener noreferrer" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
-<a href="https://trx.tokenview.com/en/address/TLKY2zUS19v8D1Ppqayfdby3NwqgrhLJ8N"><img src="https://img.shields.io/badge/TRX-TLKY2zUS19v8D1Ppqayfdby3NwqgrhLJ8N-0D0C1C?style=flat" target="_blank" rel="noopener noreferrer" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
-<a href="https://atomscan.com/accounts/cosmos14l3uatzs4cfg2tl9jjeme9355sx3l8ls4kretj"><img src="https://img.shields.io/badge/ATOM-cosmos14l3uatzs4cfg2tl9jjeme9355sx3l8ls4kretj-c198c1?style=flat&logo=atom&logoColor=white" target="_blank" rel="noopener noreferrer" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
-<a href="https://www.exploremonero.com/search?q=monero%3A49qHyM9Jh3B5csihrEb6rAdk3ZtNJtBuNdGPtP2H4DnwG75tz3Ad9Q75JxMH1N37TJhw7UF5BXtBsijQckMTN7j4LYVRqPG" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Monero-49qHyM9Jh3B5csihrEb6rAdk3ZtNJtBuNdGPtP2H4DnwG75tz3Ad9Q75JxMH1N37TJhw7UF5BXtBsijQckMTN7j4LYVRqPG-ff6600?style=flat&logo=monero&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-</p>
-
----
-
-<div align="center">
 <h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories!</h3>
 </div><img src="assets/wave.svg" />
