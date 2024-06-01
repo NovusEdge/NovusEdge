@@ -28,7 +28,7 @@
 
 ---
 
-<h3 align="center">Languages and Tools I use</h3>
+<h3 align="center">Some languages and other tools that I use</h3>
 
 <p align="center">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
@@ -46,20 +46,10 @@
 <br>
 </p>
 
----
-
-<h3 align="center">💻 Workspace Specs</h3>
-<p align="center">
-<br>
-<img src="https://img.shields.io/badge/NVIDIA-GeForce_RTX_2060-76B900?style=for-the-badge&logo=nvidia&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Intel-Core_i7_10700K-0071C5?style=for-the-badge&logo=intel&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Linux-Kali_2022.3-d42bf2?style=for-the-badge&logo=linux&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
 <br>
 
 ---
 
 <div align="center">
-<h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories!</h3>
+<h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories and wishlisting my work on steam!</h3>
 </div><img src="assets/wave.svg" />
