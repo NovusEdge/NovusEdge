@@ -68,13 +68,13 @@
           <div class="item"><span class="item-accent">::</span> DAGSTER</div>
           <div class="item"><span class="item-accent">::</span> POSTGRES</div>
           <div class="item"><span class="item-accent">::</span> DOCKER</div>
-          <div class="item"><span class="item-accent">::</span> K8S / INFRA</div>
+          <div class="item"><span class="item-accent">::</span> REDIS</div>
         </div>
         <div class="category">
           <div class="category-title">03 / Graph Intel</div>
           <div class="item"><span class="item-accent">::</span> MEMGRAPH</div>
           <div class="item"><span class="item-accent">::</span> QDRANT</div>
-          <div class="item"><span class="item-accent">::</span> KNOWLEDGE GRAPHS</div>
+          <div class="item"><span class="item-accent">::</span> CLAUDE</div>
           <div class="item"><span class="item-accent">::</span> NEO4J</div>
         </div>
       </div>
