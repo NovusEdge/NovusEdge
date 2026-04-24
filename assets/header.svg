@@ -47,12 +47,12 @@
             back-1 1s steps(40, end) 6s forwards,
             type-2 2s steps(21, end) 7.2s forwards,
             back-2 1s steps(21, end) 10s forwards,
-            type-3 2s steps(32, end) 11.2s forwards,
+            type-3 2.5s steps(44, end) 11.2s forwards,
             blink 0.8s step-end infinite;
         }
         .sub-line::before {
           content: "";
-          animation: content-change 13s infinite;
+          animation: content-change 14s infinite;
         }
         .scanline {
           width: 100%;
@@ -73,12 +73,12 @@
         @keyframes back-1 { from { width: 380px; } to { width: 0; } }
         @keyframes type-2 { from { width: 0; } to { width: 205px; } }
         @keyframes back-2 { from { width: 205px; } to { width: 0; } }
-        @keyframes type-3 { from { width: 0; } to { width: 310px; } }
+        @keyframes type-3 { from { width: 0; } to { width: 440px; } }
 
         @keyframes content-change {
           0%, 46% { content: "MAPPING_THE_INFINITE_GEOMETRY_OF_THOUGHT"; }
           47%, 77% { content: "WHISPERS_OF_SENTIENCE"; }
-          78%, 100% { content: "THE_ETERNAL_ECHO_OF_KNOWLEDGE"; }
+          78%, 100% { content: "WEAVING_THE_TANGIBLE_THREADS_OF_UNIVERSAL_TRUTH"; }
         }
 
         @media (prefers-color-scheme: light) {
