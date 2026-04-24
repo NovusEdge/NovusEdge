@@ -28,9 +28,9 @@
           letter-spacing: 0.15em;
           white-space: nowrap;
           overflow: hidden;
-          border-right: 4px solid #58a6ff;
+          border-right: 4px solid transparent;
           width: 0;
-          animation: typing-main 2s steps(13, end) forwards, blink 0.8s step-end infinite;
+          animation: typing-main 2s steps(13, end) forwards, blink-main 2s step-end 0s 1;
           color: #ffffff;
         }
         .sub-line {
@@ -68,6 +68,7 @@
         }
 
         @keyframes typing-main { from { width: 0 } to { width: 260px } }
+        @keyframes blink-main { from, to { border-color: #58a6ff } 50% { border-color: transparent } 100% { border-color: transparent } }
         @keyframes blink { from, to { border-color: transparent } 50% { border-color: #58a6ff } }
         @keyframes scan { from { top: 0; } to { top: 100%; } }
 
@@ -85,7 +86,7 @@
 
         @media (prefers-color-scheme: light) {
           .container { color: #1f2328; }
-          .main-line { color: #1f2328; border-right-color: #0969da; }
+          .main-line { color: #1f2328; border-right-color: transparent; }
           .sub-line { color: #444d56; border-right-color: #0969da; }
           .grid { background-image: linear-gradient(rgba(9, 105, 218, 0.08) 1px, transparent 1px),
                                     linear-gradient(90deg, rgba(9, 105, 218, 0.08) 1px, transparent 1px); }
