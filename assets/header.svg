@@ -34,20 +34,20 @@
           color: #ffffff;
         }
         .sub-line {
-          font-size: 12px;
+          font-size: 13px;
           font-weight: 700;
           color: #c9d1d9;
           text-transform: uppercase;
-          letter-spacing: 0.3em;
+          letter-spacing: 0.4em;
           margin-top: 10px;
           white-space: nowrap;
           opacity: 0;
-          filter: blur(5px);
-          animation: bloom 14s infinite;
+          filter: blur(8px);
+          animation: bloom 15s infinite;
         }
         .sub-line::before {
           content: "";
-          animation: content-change 14s infinite;
+          animation: content-change 15s infinite;
         }
         .scanline {
           width: 100%;
@@ -65,19 +65,19 @@
         @keyframes scan { from { top: 0; } to { top: 100%; } }
 
         @keyframes bloom {
-          0%, 10% { opacity: 0; filter: blur(10px); transform: scale(0.95); }
-          15%, 40% { opacity: 1; filter: blur(0px); transform: scale(1); }
-          45%, 50% { opacity: 0; filter: blur(10px); transform: scale(0.95); }
-          55%, 75% { opacity: 1; filter: blur(0px); transform: scale(1); }
-          80%, 85% { opacity: 0; filter: blur(10px); transform: scale(0.95); }
-          90%, 98% { opacity: 1; filter: blur(0px); transform: scale(1); }
+          0%, 5% { opacity: 0; filter: blur(10px); transform: scale(0.95); }
+          10%, 28% { opacity: 1; filter: blur(0px); transform: scale(1); }
+          33%, 38% { opacity: 0; filter: blur(10px); transform: scale(0.95); }
+          43%, 61% { opacity: 1; filter: blur(0px); transform: scale(1); }
+          66%, 71% { opacity: 0; filter: blur(10px); transform: scale(0.95); }
+          76%, 95% { opacity: 1; filter: blur(0px); transform: scale(1); }
           100% { opacity: 0; filter: blur(10px); transform: scale(0.95); }
         }
 
         @keyframes content-change {
-          0%, 45% { content: "MAPPING_THE_INFINITE_GEOMETRY_OF_THOUGHT"; }
-          46%, 79% { content: "WHISPERS_OF_SENTIENCE"; }
-          80%, 100% { content: "WEAVING_THE_TANGIBLE_THREADS_OF_UNIVERSAL_TRUTH"; }
+          0%, 33% { content: "MAPPING_INFINITE_THOUGHT"; }
+          34%, 66% { content: "WHISPERS_OF_SENTIENCE"; }
+          67%, 100% { content: "WEAVING_UNIVERSAL_TRUTH"; }
         }
 
         @media (prefers-color-scheme: light) {
