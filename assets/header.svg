@@ -42,7 +42,7 @@
           animation: pulse 2s infinite;
         }
 
-        @keyframes typing { from { width: 0 } to { width: 440px } }
+        @keyframes typing { from { width: 0 } to { width: 520px } }
         @keyframes blink { from, to { border-color: transparent } 50% { border-color: #58a6ff } }
         @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
         @keyframes pulse {
@@ -58,10 +58,10 @@
         }
       </style>
       <div class="container">
-        <div class="line">> INITIALIZING_NOVUSEDGE_PROTOCOL</div>
+        <div class="line">> ENGINEER_OF_SEMANTIC_INFRASTRUCTURE_</div>
         <div class="status-container">
           <div class="pulse"></div>
-          SYSTEM STATUS: OPTIMIZED / STEALTH_MODE
+          SYSTEM STATUS: OPTIMIZED / COGNITIVE_MODE
         </div>
       </div>
     </div>

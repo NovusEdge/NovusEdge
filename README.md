@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <b>STEALTH FOUNDER | SEMANTIC SYSTEMS ARCHITECT</b><br>
+  <b>INTELLIGENCE ARCHITECT | COGNITIVE INFRASTRUCTURE FOR AGENTS</b><br>
   <i>Constructing High-Dimensional Intelligence Infrastructure.</i>
 </p>
 
