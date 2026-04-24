@@ -10,7 +10,7 @@
 ---
 
 ### THE MISSION
-I'm an engineer obsessed with the "context gap"—the space between massive amounts of raw data and an agent's ability to actually reason with it. 
+I'm an engineer obsessed with the "context gap": the space between massive amounts of raw data and an agent's ability to actually reason with it. 
 
 Most of my time is spent building the **intelligence infrastructure** that bridges this gap. I focus on **GraphRAG** and **Semantic Memory** because I believe the future of AI isn't just about bigger models, but about more structured, high-fidelity context.
 
