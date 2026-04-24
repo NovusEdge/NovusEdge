@@ -16,37 +16,9 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 
 ### CORE ENGINEERING STACK
 
-<table align="center">
-  <thead>
-    <tr>
-      <th align="left" width="333">SYSTEMS & LOGIC</th>
-      <th align="left" width="333">ORCHESTRATION & DATA</th>
-      <th align="left" width="333">GRAPH & VECTOR INTEL</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        • RUST<br>
-        • GO<br>
-        • C<br>
-        • PYTHON
-      </td>
-      <td>
-        • DAGSTER<br>
-        • POSTGRESQL<br>
-        • DOCKER<br>
-        • BASH / CI-CD
-      </td>
-      <td>
-        • MEMGRAPH / NEO4J<br>
-        • QDRANT<br>
-        • CYPHER / GQL<br>
-        • SEMANTIC SEARCH
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p align="center">
+  <img src="assets/stack.svg" width="800">
+</p>
 
 ---
 
@@ -90,6 +62,10 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 </p>
 
 <br>
+
+<p align="center">
+  <img src="assets/footer.svg" width="800">
+</p>
 
 <p align="center">
   <i>"STRUCTURING THE UNSTRUCTURED."</i>

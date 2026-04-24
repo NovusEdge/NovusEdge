@@ -10,54 +10,82 @@
           justify-content: center;
           height: 120px;
           background: transparent;
+          position: relative;
+          overflow: hidden;
+        }
+        .grid {
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          background-image: linear-gradient(rgba(88, 166, 255, 0.05) 1px, transparent 1px),
+                            linear-gradient(90deg, rgba(88, 166, 255, 0.05) 1px, transparent 1px);
+          background-size: 20px 20px;
+          z-index: -1;
         }
         .line {
           font-size: 18px;
-          letter-spacing: 0.05em;
+          font-weight: 700;
+          letter-spacing: 0.1em;
           white-space: nowrap;
           overflow: hidden;
           border-right: 3px solid #58a6ff;
           width: 0;
           animation: typing 2.5s steps(40, end) forwards, blink 0.8s step-end infinite;
+          margin-left: 20px;
         }
         .status-container {
           display: flex;
           align-items: center;
           margin-top: 10px;
-          font-size: 12px;
+          margin-left: 20px;
+          font-size: 10px;
           color: #8b949e;
           text-transform: uppercase;
-          letter-spacing: 0.2em;
+          letter-spacing: 0.3em;
           opacity: 0;
           animation: fadeIn 1s ease forwards;
           animation-delay: 2.7s;
         }
         .pulse {
-          width: 8px;
-          height: 8px;
+          width: 6px;
+          height: 6px;
           background-color: #3fb950;
           border-radius: 50%;
-          margin-right: 10px;
+          margin-right: 12px;
           box-shadow: 0 0 0 rgba(63, 185, 80, 0.4);
           animation: pulse 2s infinite;
         }
+        .scanline {
+          width: 100%;
+          height: 2px;
+          background: rgba(88, 166, 255, 0.1);
+          position: absolute;
+          top: 0;
+          left: 0;
+          animation: scan 4s linear infinite;
+          z-index: 1;
+        }
 
-        @keyframes typing { from { width: 0 } to { width: 180px } }
+        @keyframes typing { from { width: 0 } to { width: 220px } }
         @keyframes blink { from, to { border-color: transparent } 50% { border-color: #58a6ff } }
         @keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+        @keyframes scan { from { top: 0; } to { top: 100%; } }
         @keyframes pulse {
-          0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(63, 185, 80, 0.7); }
+          0% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(63, 185, 80, 0.7); }
           70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(63, 185, 80, 0); }
-          100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(63, 185, 80, 0); }
+          100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(63, 185, 80, 0); }
         }
 
         @media (prefers-color-scheme: light) {
           .container { color: #24292f; }
           .line { border-right-color: #0969da; }
           .status-container { color: #57606a; }
+          .grid { background-image: linear-gradient(rgba(9, 105, 218, 0.05) 1px, transparent 1px),
+                                    linear-gradient(90deg, rgba(9, 105, 218, 0.05) 1px, transparent 1px); }
         }
       </style>
       <div class="container">
+        <div class="grid"></div>
+        <div class="scanline"></div>
         <div class="line">> LESS_IS_MORE_</div>
         <div class="status-container">
           <div class="pulse"></div>

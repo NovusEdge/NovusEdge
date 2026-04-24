@@ -1,0 +1,83 @@
+<svg fill="none" viewBox="0 0 800 240" width="800" height="240" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .stack-container {
+          font-family: 'JetBrains Mono', 'Fira Code', monospace;
+          color: #c9d1d9;
+          background: transparent;
+          display: flex;
+          justify-content: space-between;
+          padding: 20px;
+        }
+        .category {
+          width: 30%;
+          border-left: 2px solid #30363d;
+          padding-left: 15px;
+        }
+        .category-title {
+          font-size: 10px;
+          color: #8b949e;
+          text-transform: uppercase;
+          letter-spacing: 0.2em;
+          margin-bottom: 15px;
+        }
+        .item {
+          font-size: 14px;
+          margin-bottom: 8px;
+          display: flex;
+          align-items: center;
+        }
+        .item-accent {
+          color: #58a6ff;
+          margin-right: 8px;
+          font-weight: bold;
+        }
+        .icon-grid {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          margin-top: 10px;
+        }
+        .icon-box {
+          background: #161b22;
+          border: 1px solid #30363d;
+          border-radius: 4px;
+          padding: 4px 8px;
+          font-size: 11px;
+          color: #c9d1d9;
+        }
+
+        @media (prefers-color-scheme: light) {
+          .stack-container { color: #24292f; }
+          .category { border-left-color: #d0d7de; }
+          .icon-box { background: #f6f8fa; border-color: #d0d7de; color: #24292f; }
+          .item-accent { color: #0969da; }
+        }
+      </style>
+      <div class="stack-container">
+        <div class="category">
+          <div class="category-title">01 / Systems</div>
+          <div class="item"><span class="item-accent">::</span> RUST</div>
+          <div class="item"><span class="item-accent">::</span> GO</div>
+          <div class="item"><span class="item-accent">::</span> C</div>
+          <div class="item"><span class="item-accent">::</span> PYTHON</div>
+        </div>
+        <div class="category">
+          <div class="category-title">02 / Orchestration</div>
+          <div class="item"><span class="item-accent">::</span> DAGSTER</div>
+          <div class="item"><span class="item-accent">::</span> POSTGRES</div>
+          <div class="item"><span class="item-accent">::</span> DOCKER</div>
+          <div class="item"><span class="item-accent">::</span> CI-CD</div>
+        </div>
+        <div class="category">
+          <div class="category-title">03 / Graph Intel</div>
+          <div class="item"><span class="item-accent">::</span> MEMGRAPH</div>
+          <div class="item"><span class="item-accent">::</span> QDRANT</div>
+          <div class="item"><span class="item-accent">::</span> CYPHER</div>
+          <div class="item"><span class="item-accent">::</span> NEO4J</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
