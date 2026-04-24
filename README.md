@@ -89,9 +89,8 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 
 <p align="center">
   <code><a href="https://www.linkedin.com/in/aliasgarkhimani/">LINKEDIN</a></code> &nbsp;&nbsp;&nbsp;
-  <code><a href="mailto:novusedge0@gmail.com">GMAIL</a></code> &nbsp;&nbsp;&nbsp;
-  <code><a href="https://msng.link/o/?NovusEdge=tg">TELEGRAM</a></code> &nbsp;&nbsp;&nbsp;
-  <code><a href="https://discordapp.com/users/650299646681284608">DISCORD</a></code>
+  <code><a href="mailto:khimanialiasgar@gmail.com">GMAIL</a></code> &nbsp;&nbsp;&nbsp;
+  <code><a href="https://msng.link/o/?NovusEdge=tg">TELEGRAM</a></code>
 </p>
 
 <br>
