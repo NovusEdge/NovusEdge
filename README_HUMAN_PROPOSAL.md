@@ -72,10 +72,6 @@ Most of my time is spent building the **intelligence infrastructure** that bridg
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=8&hide=css,html,javascript&layout=compact&hide_border=true" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NovusEdge&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-</p>
-
 ---
 
 ### FIND ME
