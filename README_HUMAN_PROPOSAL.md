@@ -69,7 +69,7 @@ Most of my time is spent building the **intelligence infrastructure** that bridg
 ### TELEMETRY
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=8&hide=css,html,javascript&layout=compact&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=8&hide=css,html,javascript,java&layout=compact&hide_border=true" />
 </p>
 
 ---
