@@ -4,7 +4,7 @@
       <style>
         .container {
           font-family: 'JetBrains Mono', 'Fira Code', monospace;
-          color: #c9d1d9;
+          color: #ffffff;
           display: flex;
           flex-direction: column;
           justify-content: center;
@@ -17,37 +17,39 @@
         .grid {
           position: absolute;
           top: 0; left: 0; right: 0; bottom: 0;
-          background-image: linear-gradient(rgba(88, 166, 255, 0.05) 1px, transparent 1px),
-                            linear-gradient(90deg, rgba(88, 166, 255, 0.05) 1px, transparent 1px);
+          background-image: linear-gradient(rgba(88, 166, 255, 0.08) 1px, transparent 1px),
+                            linear-gradient(90deg, rgba(88, 166, 255, 0.08) 1px, transparent 1px);
           background-size: 20px 20px;
           z-index: -1;
         }
         .main-line {
-          font-size: 22px;
-          font-weight: 700;
+          font-size: 24px;
+          font-weight: 800;
           letter-spacing: 0.15em;
           white-space: nowrap;
           overflow: hidden;
-          border-right: 3px solid #58a6ff;
+          border-right: 4px solid #58a6ff;
           width: 0;
           animation: typing-main 2s steps(13, end) forwards, blink 0.8s step-end infinite;
+          color: #ffffff;
         }
         .sub-line {
-          font-size: 11px;
-          color: #8b949e;
+          font-size: 12px;
+          font-weight: 700;
+          color: #c9d1d9;
           text-transform: uppercase;
           letter-spacing: 0.3em;
-          margin-top: 8px;
+          margin-top: 10px;
           white-space: nowrap;
           overflow: hidden;
-          border-right: 2px solid #58a6ff;
+          border-right: 3px solid #58a6ff;
           width: 0;
           animation: 
             type-1 3s steps(40, end) 2.2s forwards,
             back-1 1s steps(40, end) 6s forwards,
             type-2 2s steps(21, end) 7.2s forwards,
             back-2 1s steps(21, end) 10s forwards,
-            type-3 2.5s steps(44, end) 11.2s forwards,
+            type-3 2.5s steps(47, end) 11.2s forwards,
             blink 0.8s step-end infinite;
         }
         .sub-line::before {
@@ -57,7 +59,7 @@
         .scanline {
           width: 100%;
           height: 2px;
-          background: rgba(88, 166, 255, 0.1);
+          background: rgba(88, 166, 255, 0.15);
           position: absolute;
           top: 0;
           left: 0;
@@ -65,15 +67,15 @@
           z-index: 1;
         }
 
-        @keyframes typing-main { from { width: 0 } to { width: 224px } }
+        @keyframes typing-main { from { width: 0 } to { width: 260px } }
         @keyframes blink { from, to { border-color: transparent } 50% { border-color: #58a6ff } }
         @keyframes scan { from { top: 0; } to { top: 100%; } }
 
-        @keyframes type-1 { from { width: 0; } to { width: 380px; } }
-        @keyframes back-1 { from { width: 380px; } to { width: 0; } }
-        @keyframes type-2 { from { width: 0; } to { width: 205px; } }
-        @keyframes back-2 { from { width: 205px; } to { width: 0; } }
-        @keyframes type-3 { from { width: 0; } to { width: 440px; } }
+        @keyframes type-1 { from { width: 0; } to { width: 520px; } }
+        @keyframes back-1 { from { width: 520px; } to { width: 0; } }
+        @keyframes type-2 { from { width: 0; } to { width: 280px; } }
+        @keyframes back-2 { from { width: 280px; } to { width: 0; } }
+        @keyframes type-3 { from { width: 0; } to { width: 600px; } }
 
         @keyframes content-change {
           0%, 46% { content: "MAPPING_THE_INFINITE_GEOMETRY_OF_THOUGHT"; }
@@ -82,11 +84,11 @@
         }
 
         @media (prefers-color-scheme: light) {
-          .container { color: #24292f; }
-          .main-line { border-right-color: #0969da; }
-          .sub-line { border-right-color: #0969da; }
-          .grid { background-image: linear-gradient(rgba(9, 105, 218, 0.05) 1px, transparent 1px),
-                                    linear-gradient(90deg, rgba(9, 105, 218, 0.05) 1px, transparent 1px); }
+          .container { color: #1f2328; }
+          .main-line { color: #1f2328; border-right-color: #0969da; }
+          .sub-line { color: #444d56; border-right-color: #0969da; }
+          .grid { background-image: linear-gradient(rgba(9, 105, 218, 0.08) 1px, transparent 1px),
+                                    linear-gradient(90deg, rgba(9, 105, 218, 0.08) 1px, transparent 1px); }
         }
       </style>
       <div class="container">
