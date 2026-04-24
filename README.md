@@ -1,55 +1,101 @@
 <p align="center">
-<img src="assets/matrix.svg">
+  <img src="assets/header.svg" width="800">
 </p>
 
+<p align="center">
+  <b>STEALTH FOUNDER | SEMANTIC SYSTEMS ARCHITECT</b><br>
+  <i>Constructing High-Dimensional Intelligence Infrastructure.</i>
+</p>
+
+---
+
+### ARCHITECTURAL THESIS
+Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**, and **Data Orchestration**. Focused on bridging the gap between raw data pipelines and autonomous reasoning through structured semantic memory and high-performance agent harnesses.
+
+---
+
+### CORE ENGINEERING STACK
+
+<table align="center">
+  <thead>
+    <tr>
+      <th align="left" width="333">SYSTEMS & LOGIC</th>
+      <th align="left" width="333">ORCHESTRATION & DATA</th>
+      <th align="left" width="333">GRAPH & VECTOR INTEL</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        • RUST<br>
+        • GO<br>
+        • C<br>
+        • PYTHON
+      </td>
+      <td>
+        • DAGSTER<br>
+        • POSTGRESQL<br>
+        • DOCKER<br>
+        • BASH / CI-CD
+      </td>
+      <td>
+        • MEMGRAPH / NEO4J<br>
+        • QDRANT<br>
+        • CYPHER / GQL<br>
+        • SEMANTIC SEARCH
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### RESEARCH DOMAINS & IMPLEMENTATIONS
+
+<details>
+<summary><b>01 // SYSTEM ARCHITECTURES</b></summary>
 <br>
+
+- **HYPERGRAPHRAG:** Optimizing n-ary relationship extraction for high-dimensional context retrieval.
+- **AGENTIC CONTEXT ENGINEERING:** Dynamic window management and state-aware prompt injection.
+- **AGENT HARNESSES:** Standardized interfaces for multi-modal agent lifecycle management.
+- **DATA PIPELINES:** Automated ETL for graph-structured knowledge bases via Dagster.
+</details>
+
+<details>
+<summary><b>02 // ONGOING EXPLORATIONS</b></summary>
+<br>
+
+- [ ] Benchmarking hybrid retrieval latency in large-scale GraphRAG deployments.
+- [ ] Developing low-latency C-based semantic kernels for Rust-Go integrations.
+- [ ] Optimizing Cypher query performance for real-time agentic reasoning.
+</details>
+
+---
+
+### TELEMETRY
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=8&hide=css,html,javascript&layout=compact&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=NovusEdge&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+</p>
+
+---
+
+### CONNECTIVITY
+
+<p align="center">
+  <code><a href="https://www.linkedin.com/in/aliasgarkhimani/">LINKEDIN</a></code> &nbsp;&nbsp;&nbsp;
+  <code><a href="mailto:novusedge0@gmail.com">GMAIL</a></code> &nbsp;&nbsp;&nbsp;
+  <code><a href="https://msng.link/o/?NovusEdge=tg">TELEGRAM</a></code> &nbsp;&nbsp;&nbsp;
+  <code><a href="https://discordapp.com/users/650299646681284608">DISCORD</a></code>
+</p>
+
 <br>
 
 <p align="center">
-<img height="340px" alt="GIF" src="assets/New_Profile.gif" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=NovusEdge&theme=tokyonight&langs_count=6&exclude_repo=https%3A%2F%2Fgithub.com%2FNovusEdge%2F.obsidian&hide=javascript,css,scss,html" />
+  <i>"STRUCTURING THE UNSTRUCTURED."</i>
 </p>
-
-<br>
-
----
-
-<h3  align='center'>📬 Find me around the web 🌎 </h3>
-<br>
-<p align='center'>
-<a href="https://www.linkedin.com/in/aliasgarkhimani/"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="mailto:novusedge0@gmail.com?subject=Hi!"><img src="https://img.shields.io/badge/gmail-%23D14836.svg?&style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://msng.link/o/?NovusEdge=tg"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
-<a href="https://discordapp.com/users/650299646681284608"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-<a href="https://tryhackme.com/p/NovusEdge"><img src="https://img.shields.io/badge/TryHackMe-%23D14836?style=for-the-badge&logo=tryhackme&logoColor=white" alt="TryHackMe" /></a>&nbsp;&nbsp;&nbsp;&nbsp;
-</p>
-
----
-
-<h3 align="center">Some languages and other tools that I use</h3>
-
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Perl-39457E?style=for-the-badge&logo=perl&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Docker-0095D5?&style=for-the-badge&logo=docker&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-<br>
-<img src="https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Rust-D86631?style=for-the-badge&logo=rust&logoColor=white" />&nbsp;&nbsp;&nbsp;&nbsp;
-<br>
-</p>
-
-<br>
-
----
-
-<div align="center">
-<h3 align="center">Show some &nbsp;❤️&nbsp; by starring some of the repositories and wishlisting my work on steam!</h3>
-</div><img src="assets/wave.svg" />
