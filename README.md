@@ -57,7 +57,7 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 ### CONNECTIVITY
 
 <p align="center">
-  <code><a href="https://engrammic.ai">ENGRAMMIC.AI</a></code> &nbsp;&nbsp;&nbsp;
+  <code><a href="https://join.engrammic.ai">ENGRAMMIC.AI</a></code> &nbsp;&nbsp;&nbsp;
   <code><a href="https://www.linkedin.com/in/aliasgarkhimani/">LINKEDIN</a></code> &nbsp;&nbsp;&nbsp;
   <code><a href="mailto:aliasgar.khimani@engrammic.ai">EMAIL</a></code>
 </p>
