@@ -38,9 +38,10 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 <summary><b>02 // ONGOING EXPLORATIONS</b></summary>
 <br>
 
-- [ ] Benchmarking hybrid retrieval latency in large-scale GraphRAG deployments.
-- [ ] Developing low-latency C-based semantic kernels for Rust-Go integrations.
-- [ ] Optimizing Cypher query performance for real-time agentic reasoning.
+- [ ] JEPA-native agent architectures: latent-space reasoning without text projection.
+- [ ] World models and predictive representations for agentic planning.
+- [ ] Epistemic Augmented Generation (EAG): four-layer cognitive memory for agents.
+- [ ] Hybrid retrieval optimization for large-scale GraphRAG deployments.
 </details>
 
 ---
