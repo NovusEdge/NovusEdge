@@ -61,11 +61,15 @@
           <div class="category-title">03 / Orchestration</div>
           <div class="item"><span class="item-accent">::</span> DAGSTER</div>
           <div class="item"><span class="item-accent">::</span> CLAUDE</div>
+          <div class="item"><span class="item-accent">::</span> TEMPORAL</div>
+          <div class="item"><span class="item-accent">::</span> VECTOR</div>
         </div>
         <div class="category">
           <div class="category-title">04 / DevOps</div>
           <div class="item"><span class="item-accent">::</span> PULUMI</div>
           <div class="item"><span class="item-accent">::</span> TERRAFORM</div>
+          <div class="item"><span class="item-accent">::</span> DOCKER</div>
+          <div class="item"><span class="item-accent">::</span> NIX</div>
         </div>
       </div>
     </div>
