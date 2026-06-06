@@ -49,7 +49,7 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/apprentice/1-repos-per-language.svg" />
-  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/apprentice/0-profile-details.svg" />
+  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/apprentice/4-productive-time.svg" />
 </p>
 
 ---
