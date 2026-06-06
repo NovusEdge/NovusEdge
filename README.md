@@ -48,8 +48,8 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 ### TELEMETRY
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" />
-  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/tokyonight/0-profile-details.svg" />
+  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/apprentice/1-repos-per-language.svg" />
+  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/apprentice/0-profile-details.svg" />
 </p>
 
 ---
@@ -57,8 +57,9 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 ### CONNECTIVITY
 
 <p align="center">
+  <code><a href="https://engrammic.ai">ENGRAMMIC.AI</a></code> &nbsp;&nbsp;&nbsp;
   <code><a href="https://www.linkedin.com/in/aliasgarkhimani/">LINKEDIN</a></code> &nbsp;&nbsp;&nbsp;
-  <code><a href="mailto:khimanialiasgar@gmail.com">GMAIL</a></code>
+  <code><a href="mailto:aliasgar.khimani@engrammic.ai">EMAIL</a></code>
 </p>
 
 <br>
