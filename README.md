@@ -10,7 +10,7 @@
 ---
 
 ### ARCHITECTURAL THESIS
-Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**, and **Data Orchestration**. Focused on bridging the gap between raw data pipelines and autonomous reasoning through structured semantic memory and high-performance agent harnesses.
+Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Context Engineering**, and **Cognitive Infrastructure**. Focused on bridging the gap between retrieval and reasoning through structured doubt, externalized epistemics, and high-performance agent harnesses.
 
 ---
 
@@ -28,9 +28,9 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 <summary><b>01 // SYSTEM ARCHITECTURES</b></summary>
 <br>
 
-- **HYPERGRAPHRAG:** Optimizing n-ary relationship extraction for high-dimensional context retrieval.
-- **AGENTIC CONTEXT ENGINEERING:** Dynamic window management and state-aware prompt injection.
-- **AGENT HARNESSES:** Standardized interfaces for multi-modal agent lifecycle management.
+- **LEAP/CITE:** Layered epistemic protocol with stratified types and write-time coherence enforcement.
+- **VEIL:** Local-first agent memory — sqlite-vec embeddings, FSRS decay, deterministic eviction.
+- **AGENT HARNESSES:** Claude Code plugins and multi-modal agent lifecycle tooling.
 - **DATA PIPELINES:** Automated ETL for graph-structured knowledge bases via Dagster.
 </details>
 
@@ -38,10 +38,10 @@ Engineering at the intersection of **GraphRAG**, **Agentic Context Engineering**
 <summary><b>02 // ONGOING EXPLORATIONS</b></summary>
 <br>
 
+- [x] Epistemic Augmented Generation (EAG): four-layer cognitive memory for agents. *(shipping as Veil)*
 - [ ] JEPA-native agent architectures: latent-space reasoning without text projection.
-- [ ] World models and predictive representations for agentic planning.
-- [ ] Epistemic Augmented Generation (EAG): four-layer cognitive memory for agents.
-- [ ] Hybrid retrieval optimization for large-scale GraphRAG deployments.
+- [ ] AGM-compliant belief revision in production agent loops.
+- [ ] Externalized epistemics at scale: distributed warrant chains.
 </details>
 
 ---
