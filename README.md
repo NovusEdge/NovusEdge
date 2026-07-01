@@ -38,7 +38,7 @@ Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Conte
 <summary><b>02 // ONGOING EXPLORATIONS</b></summary>
 <br>
 
-- [x] LeAP: Layered Epistemic Agent Protocol — stratified memory with warrant-backed claims. *(shipping as Veil)*
+- [x] LeAP: Layered Epistemic Agent Protocol — stratified memory with warrant-backed claims. *(shipping as [Veil](https://github.com/engrammic-ai/veil))*
 - [ ] JEPA-native agent architectures: latent-space reasoning without text projection.
 - [ ] AGM-compliant belief revision in production agent loops.
 - [ ] Externalized epistemics at scale: distributed warrant chains.
