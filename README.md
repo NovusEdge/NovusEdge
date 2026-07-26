@@ -44,7 +44,7 @@ The second half of the problem: an agent that knows what it knows still needs bo
 <br>
 
 - [x] LeAP: Layered Epistemic Agent Protocol, stratified memory with warrant-backed claims. *(shipping as [Veil](https://github.com/engrammic-ai/veil))*
-- [ ] Verification asymmetry: generation is free, verification still costs what it always did. *([essay](https://novusedge.github.io/blog/epistemic-collapse))*
+- [x] Verification asymmetry: generation is free, verification still costs what it always did. *([essay](https://novusedge.github.io/blog/epistemic-collapse))*
 - [ ] Skill learning without weight updates: optimizing behaviour in text space, not parameter space.
 - [ ] JEPA-native agent architectures: latent-space reasoning without text projection.
 - [ ] AGM-compliant belief revision in production agent loops.
