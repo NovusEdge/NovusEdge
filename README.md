@@ -10,7 +10,9 @@
 ---
 
 ### ARCHITECTURAL THESIS
-Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Context Engineering**, and **Cognitive Infrastructure**. Focused on bridging the gap between retrieval and reasoning through structured doubt, externalized epistemics, and high-performance agent harnesses.
+Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Context Engineering**, and **Governed Autonomy**. Bridging the gap between retrieval and reasoning through structured doubt, externalized epistemics, and high-performance agent harnesses.
+
+The second half of the problem: an agent that knows what it knows still needs bounds it cannot argue its way out of. Capability-locked immutable cores, policy engines as the enforcement point rather than the prompt, and self-replication that stays bounded by arithmetic instead of good intentions.
 
 ---
 
@@ -32,6 +34,7 @@ Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Conte
 - **[VEIL](https://github.com/engrammic-ai/veil):** Local-first agent memory, drop-in: sqlite-vec embeddings, FSRS decay, deterministic eviction.
 - **[LEAP/CITE](https://github.com/engrammic-ai/research):** Layered epistemic protocol with stratified types and write-time coherence enforcement.
 - **[SKILLOPT](https://github.com/NovusEdge/SkillOpt):** Text-space optimizer. Trains reusable natural-language skills for *frozen* agents via trajectory-driven edits and validation-gated updates.
+- **MONEY-MESH:** Leaderless mesh of self-replicating earning agents under an immutable core. Cedar policy engine at the enforcement point, ground-truth revenue only, spend cap held by arithmetic.
 - **AGENT HARNESSES:** Claude Code plugins, sub-agent orchestration, and slop-prevention gates across the agent lifecycle.
 - **[ØCLOAK](https://github.com/NovusEdge/ocloak):** At-cost RF / WiFi-sensing hardware plus a P2P threat-intel network. Surveillance commoditized; defense didn't.
 </details>
