@@ -64,7 +64,6 @@
           <div class="item"><span class="item-accent">::</span> DAGSTER</div>
           <div class="item"><span class="item-accent">::</span> CLAUDE</div>
           <div class="item"><span class="item-accent">::</span> TEMPORAL</div>
-          <div class="item"><span class="item-accent">::</span> VECTOR</div>
           <div class="item"><span class="item-accent">::</span> MCP</div>
           <div class="item"><span class="item-accent">::</span> LITELLM</div>
           <div class="item"><span class="item-accent">::</span> PYDANTIC-AI</div>
