@@ -28,10 +28,12 @@ Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Conte
 <summary><b>01 // SYSTEM ARCHITECTURES</b></summary>
 <br>
 
-- **LEAP/CITE:** Layered epistemic protocol with stratified types and write-time coherence enforcement.
-- **VEIL:** Local-first agent memory — sqlite-vec embeddings, FSRS decay, deterministic eviction.
-- **AGENT HARNESSES:** Claude Code plugins and multi-modal agent lifecycle tooling.
-- **DATA PIPELINES:** Automated ETL for graph-structured knowledge bases via Dagster.
+- **[ENGRAMMIC](https://github.com/engrammic-ai/engrammic):** Epistemic memory as a graph — claims, evidence, provenance. Separates what an agent observed from what it concluded from what it invented.
+- **[VEIL](https://github.com/engrammic-ai/veil):** Local-first agent memory, drop-in — sqlite-vec embeddings, FSRS decay, deterministic eviction.
+- **[LEAP/CITE](https://github.com/engrammic-ai/research):** Layered epistemic protocol with stratified types and write-time coherence enforcement.
+- **[SKILLOPT](https://github.com/NovusEdge/SkillOpt):** Text-space optimizer — trains reusable natural-language skills for *frozen* agents via trajectory-driven edits and validation-gated updates.
+- **AGENT HARNESSES:** Claude Code plugins, sub-agent orchestration, and slop-prevention gates across the agent lifecycle.
+- **[ØCLOAK](https://github.com/NovusEdge/ocloak):** At-cost RF / WiFi-sensing hardware plus a P2P threat-intel network. Surveillance commoditized; defense didn't.
 </details>
 
 <details>
@@ -39,9 +41,12 @@ Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Conte
 <br>
 
 - [x] LeAP: Layered Epistemic Agent Protocol — stratified memory with warrant-backed claims. *(shipping as [Veil](https://github.com/engrammic-ai/veil))*
+- [ ] Verification asymmetry: generation is free, verification still costs what it always did. *([essay](https://novusedge.github.io/blog/epistemic-collapse))*
+- [ ] Skill learning without weight updates — optimizing behaviour in text space, not parameter space.
 - [ ] JEPA-native agent architectures: latent-space reasoning without text projection.
 - [ ] AGM-compliant belief revision in production agent loops.
 - [ ] Externalized epistemics at scale: distributed warrant chains.
+- [ ] [Tapestry](https://github.com/NovusEdge/tapestry): sovereign frontier models — shared training, nationally-owned derivatives.
 </details>
 
 ---
@@ -49,8 +54,8 @@ Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Conte
 ### TELEMETRY
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/apprentice/1-repos-per-language.svg" />
-  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/apprentice/4-productive-time.svg" />
+  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" />
+  <img src="https://raw.githubusercontent.com/NovusEdge/NovusEdge/main/profile-summary-card-output/tokyonight/4-productive-time.svg" />
 </p>
 
 ---
@@ -60,7 +65,8 @@ Engineering at the intersection of **Epistemic Memory Systems**, **Agentic Conte
 <p align="center">
   <code><a href="https://join.engrammic.ai">ENGRAMMIC.AI</a></code> &nbsp;&nbsp;&nbsp;
   <code><a href="https://www.linkedin.com/in/aliasgarkhimani/">LINKEDIN</a></code> &nbsp;&nbsp;&nbsp;
-  <code><a href="mailto:aliasgar.khimani@engrammic.ai">EMAIL</a></code>
+  <code><a href="mailto:aliasgar.khimani@engrammic.ai">EMAIL</a></code> &nbsp;&nbsp;&nbsp;
+  <code><a href="https://ko-fi.com/aliasgarkhimani">KO-FI</a></code>
 </p>
 
 <br>
