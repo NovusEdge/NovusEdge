@@ -47,9 +47,11 @@ Memory that separates what an agent observed from what it concluded and what it 
 - [ ] Can an agent confirm its side effects before it continues? *([midwire](https://github.com/NovusEdge/midwire), in progress)*
 - [ ] Generation got cheap and verification didn't. What closes that gap? *([essay](https://khimani.dev/blog/epistemic-collapse/))*
 - [ ] Can autonomy be bounded by a policy engine and arithmetic, rather than by the prompt?
-- [ ] AGM-compliant belief revision in production agent loops.
-- [ ] JEPA-native agent architectures: reasoning in latent space without projecting to text.
-- [ ] [Tapestry](https://github.com/NovusEdge/tapestry): shared training, nationally owned derivatives.
+- [ ] What should a robot remember? Object states, failures and maps, retrieved under partial observability without surfacing stale entries.
+- [ ] World action models: predicting the consequences of an action in latent space instead of rendering future frames.
+- [ ] Closing the loop on hardware: a VLA policy that checks its action landed through sensors, not through its own prediction.
+- [ ] Safety bounds a VLA policy cannot override: runtime envelopes enforced outside the model.
+- [ ] Cross-embodiment transfer: data from one robot's kinematics and sensors that still teaches another.
 
 ### Stack
 
