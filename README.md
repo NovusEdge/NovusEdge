@@ -25,7 +25,7 @@ Lately the same question has moved to hardware: how a robot confirms that its ac
 
 ---
 
-### PROJECTS & OPEN QUESTIONS
+### PROJECTS & RESEARCH
 
 <details open>
 <summary><b>01 // AGENT INFRASTRUCTURE</b></summary>
@@ -70,7 +70,7 @@ Memory that separates what an agent observed from what it concluded and what it 
 </details>
 
 <details>
-<summary><b>05 // OPEN QUESTIONS</b></summary>
+<summary><b>05 // RESEARCH LOG</b></summary>
 <br>
 
 - [x] Can an agent get a disposable machine as easily as a shell? *([stoat](https://github.com/NovusEdge/stoat))*
