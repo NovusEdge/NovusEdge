@@ -1,36 +1,15 @@
-<svg fill="none" viewBox="0 0 800 60" width="800" height="60" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .footer-container {
-          font-family: 'JetBrains Mono', 'Fira Code', monospace;
-          color: #8b949e;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 60px;
-          font-size: 10px;
-          letter-spacing: 0.4em;
-          text-transform: uppercase;
-          position: relative;
-        }
-        .line {
-          height: 1px;
-          background: #30363d;
-          flex-grow: 1;
-          margin: 0 20px;
-        }
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="24" viewBox="0 0 800 24" aria-hidden="true">
+<style>
+  :root { --fg:#1f2328; --muted:#59636e; --line:#d1d9e0; --signal:#b4590b; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg:#e6edf3; --muted:#9198a1; --line:#3d444d; --signal:#f2a33a; }
+  }
 
-        @media (prefers-color-scheme: light) {
-          .footer-container { color: #57606a; }
-          .line { background: #d0d7de; }
-        }
-      </style>
-      <div class="footer-container">
-        <div class="line"></div>
-        EOF // SESSION TERMINATED
-        <div class="line"></div>
-      </div>
-    </div>
-  </foreignObject>
+  .track { stroke:var(--line); stroke-width:1; }
+  .pulse { stroke:var(--signal); stroke-width:2.5; stroke-linecap:round;
+           stroke-dasharray:26 1600; stroke-dashoffset:26; animation:run 9s cubic-bezier(.5,0,.3,1) infinite; }
+  @keyframes run { 0% { stroke-dashoffset:26; } 45%,100% { stroke-dashoffset:-800; } }
+  @media (prefers-reduced-motion: reduce) { .pulse { display:none; } }
+</style>
+<line class="track" x1="0" y1="12" x2="800" y2="12"/><line class="pulse" x1="0" y1="12" x2="800" y2="12"/>
 </svg>
