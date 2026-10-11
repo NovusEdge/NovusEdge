@@ -4,7 +4,8 @@
 
 <p align="center">
   <b>AGENT INFRASTRUCTURE | ROBOTICS & PHYSICAL AI</b><br>
-  <i>Sandboxes, sensors and decision ledgers for agents that act on real systems.</i>
+  <i>Sandboxes, sensors and decision ledgers for agents that act on real systems.</i><br>
+  <a href="https://khimani.dev">khimani.dev</a> · <a href="https://khimani.dev/portfolio/">portfolio</a> · <a href="https://khimani.dev/blog/">writing</a>
 </p>
 
 ---
@@ -43,10 +44,13 @@ Lately the same question has moved to hardware: how a robot confirms that its ac
 <summary><b>02 // CLAUDE CODE PLUGINS</b></summary>
 <br>
 
+- **[GLOWUP](https://glowup.khimani.dev/):** a side pane for changed files, subagents and context use, JSON theme packs, and a pixel pet named Clawd who acts out what Claude is doing.
+- **[A2A-MOD](https://github.com/NovusEdge/a2a-mod):** hands tasks from Claude Code to non-Claude agents over A2A, keeps working, and picks up the results.
 - **[PALPATINE](https://github.com/NovusEdge/palpatine):** a "strategic" advisor for Claude Code and Codex. It names the actual problem and the actions to take, in 50 words.
 - **[CURT](https://github.com/NovusEdge/curt):** editing guidance and a heuristic prose linter that cuts AI slop and keeps the author's voice.
 - **[READABLE-RESPONSES](https://github.com/NovusEdge/readable-responses):** a readability hook and a de-slopify skill for Claude Code and Codex CLI, because Opus 5 yaps too much.
 - **[POLISHED-ARTIFACTS](https://github.com/NovusEdge/polished-artifacts):** one design language for Claude artifacts, in Carbon and Apple looks, with a lint for rendered pages.
+- **[SOFTWARE-ARCHITECTURE](https://github.com/NovusEdge/software-architecture):** a sourced architecture reference for Claude Code, with a command that reviews a repo's design docs and decision ledger.
 </details>
 
 <details>
