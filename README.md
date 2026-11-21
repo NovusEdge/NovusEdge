@@ -12,7 +12,7 @@
 
 ### WHAT I'M BUILDING
 
-Most of my work comes back to one gap: an agent calls a tool, reads its own report of what happened, and carries on, so nothing outside the agent ever checks the result. **[stoat](https://github.com/NovusEdge/stoat)** gives the agent a disposable machine to act in, **[midwire](https://github.com/NovusEdge/midwire)** measures what actually changed, and **[docket](https://github.com/NovusEdge/docket)** keeps the decisions and their reasons so the next session starts from them. **[flocc](https://github.com/NovusEdge/flocc)** puts the agent to work in the first place: label a Linear issue, and a host picks it up and opens a draft PR.
+Most of my work comes back to one gap: an agent calls a tool, reads its own report of what happened, and carries on, so nothing outside the agent ever checks the result. **[stoat](https://github.com/NovusEdge/stoat)** gives the agent a disposable machine to act in, **[midwire](https://github.com/NovusEdge/midwire)** measures what actually changed, and **[docket](https://github.com/NovusEdge/docket)** keeps the decisions and their reasons so the next session starts from them. **[flocc](https://github.com/NovusEdge/flocc)** is my attempt at getting closer to a proper software factory: label a Linear issue, and a host picks it up, does the work and opens a draft PR.
 
 Lately the same question has moved to hardware: how a robot confirms that its action landed, what it should remember, and which limits it cannot talk its way past.
 
@@ -35,7 +35,7 @@ Lately the same question has moved to hardware: how a robot confirms that its ac
 - **[STOAT](https://github.com/NovusEdge/stoat):** local QEMU VMs for people and agents. Disposable Alpine sessions and persistent Linux guests from plain TOML, driven through a TUI, a JSON CLI or MCP tools. One Go binary.
 - **[MIDWIRE](https://github.com/NovusEdge/midwire):** closed-loop agency. Confirms that a tool call's side effect landed before the agent takes its next step.
 - **[DOCKET](https://github.com/NovusEdge/docket):** an append-only decision ledger for coding agents. When a conversation resumes or gets compacted, it briefs the agent on what was decided, why, and what is still open.
-- **[FLOCC](https://github.com/NovusEdge/flocc):** runs Claude Code sessions on Linear issues. A host you run picks up a labelled issue, works on it in its own git worktree and opens a draft PR. The agents never push; the service does.
+- **[FLOCC](https://github.com/NovusEdge/flocc):** a step toward a software factory. Runs Claude Code sessions on Linear issues. A host you run picks up a labelled issue, works on it in its own git worktree and opens a draft PR. The agents never push; the service does.
 - **[OPENCODE-NATIVE-SWARMS](https://github.com/NovusEdge/opencode-native-swarms):** permission-scoped background-agent workflows for OpenCode. It can research, review and run narrow checks, and has no path to edits, pushes or external writes.
 - **[SKILLOPT](https://github.com/NovusEdge/SkillOpt):** trains reusable natural-language skills for frozen agents through trajectory-driven edits and validation-gated updates.
 - **MONEY-MESH** (private): a leaderless mesh of self-replicating earning agents under an immutable core. A Cedar policy engine sits at the enforcement point, revenue counts only from ground truth, and the spend cap is enforced by arithmetic.
