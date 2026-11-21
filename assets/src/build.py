@@ -73,89 +73,127 @@ def svg(w: int, h: int, label: str, style: str, body: str) -> str:
     )
 
 
+# 20x20 line icons, drawn from the box's icon origin.
+ICONS = {
+    "agent": "M3 5.5L8.5 10L3 14.5M11 15H17",
+    "stoat": "M2 3.5H18V14H2ZM6 7H14V10.5H6ZM10 14V17M6.5 17H13.5",
+    "midwire": "M10 4.5a5.5 5.5 0 1 0 .01 0M10 9a1 1 0 1 0 .01 0M10 1V3M10 17V19M1 10H3M17 10H19",
+    "docket": "M3 4.5H5M8 4.5H17M3 10H5M8 10H17M3 15.5H5M8 15.5H12.5",
+}
+
+
 def header() -> str:
-    W, H = 800, 280
+    W, H = 800, 300
     # Clockwise loop through the four box centres. The track runs under the
     # boxes and is masked out there, so only the edges between them show.
-    bw, bh = 188, 64
-    cx = {"agent": 210, "stoat": 590, "midwire": 590, "docket": 210}
-    cy = {"agent": 74, "stoat": 74, "midwire": 206, "docket": 206}
+    bw, bh = 200, 64
+    cx = {"agent": 268, "stoat": 628, "midwire": 628, "docket": 268}
+    cy = {"agent": 82, "stoat": 82, "midwire": 218, "docket": 218}
     roles = {
         "agent": "your coding agent",
         "stoat": "runs it in a VM",
         "midwire": "checks what changed",
         "docket": "records the decision",
     }
-    signals = ["acts", "effect", "verdict", "context"]
+    # One (payload, gloss) per edge, in loop order starting at the agent.
+    signals = [
+        ("acts", "a tool call"),
+        ("effect", "what it did"),
+        ("verdict", "landed or not"),
+        ("context", "what was decided"),
+    ]
+    inlet = ("flocc", "issue", "from Linear")
+    centre = "closed loop"
     top, right = cx["stoat"] - cx["agent"], cy["midwire"] - cy["stoat"]
     perimeter = 2 * (top + right)
     period = 6.4
 
-    # The pulse is three dashes sharing one animation; leading gaps offset each
-    # so they end at the same point and read as one comet with a fading tail.
-    # A pattern must sum to the perimeter or the dash repeats on the loop.
-    trail = [(96, 0.12, 1.5), (52, 0.35, 2), (22, 1.0, 2.75)]
+    # The pulse is dashes sharing one animation; --o starts each one further
+    # along so they end at the same point and read as one comet with a fading
+    # tail. A pattern must sum to the perimeter or the dash repeats on the
+    # loop, and must not open with a zero-length dash: a round cap draws that
+    # as a dot at the tail's tip.
+    trail = [(96, 0.12, 1.5, ""), (52, 0.35, 2, ""), (22, 1.0, 2.75, ""), (22, 0.55, 7, ' filter="url(#bloom)"')]
     tail = trail[0][0]
+    head_len = trail[2][0]
     pulses = "".join(
-        f'<path class="pulse" d="LOOP" stroke-opacity="{op}" stroke-width="{sw}" '
-        f'stroke-dasharray="0 {tail - n} {n} {perimeter - tail}"/>'
-        for n, op, sw in trail
+        f'<path class="pulse" d="LOOP" stroke-opacity="{op}" stroke-width="{sw}"{extra} '
+        f'stroke-dasharray="{n} {perimeter - n}" style="--o:{n - tail}px"/>'
+        for n, op, sw, extra in trail
     )
-
-    # Distance along the track where the bright head enters and leaves each box,
-    # as keyframe percentages, so a box lights while the head is inside it.
-    hx, hy = bw / 2, bh / 2
-    head_len = trail[-1][0]
-    spans = {
-        "stoat": (top - hx - tail, top + hy - (tail - head_len)),
-        "midwire": (top + right - hy - tail, top + right + hx - (tail - head_len)),
-        "docket": (2 * top + right - hx - tail, 2 * top + right + hy - (tail - head_len)),
-    }
 
     def pct(d: float) -> str:
         return f"{100 * (d % perimeter) / perimeter:.2f}%"
 
-    off = "{ stroke:var(--line); fill-opacity:0; }"
-    on = "{ stroke:var(--signal); fill-opacity:.09; }"
+    def lit(name: str, a: float, b: float, off: str, on: str) -> str:
+        # On while the comet's head is between track distances a and b.
+        a, b = a - tail, b - (tail - head_len)
+        if 0 <= a - 1 and b + 8 <= perimeter:
+            return f"@keyframes {name} {{ 0%,{pct(a - 1)},{pct(b + 8)},100% {off} {pct(a + 4)},{pct(b)} {on} }}"
+        # The span straddles the loop's start, so it wraps past 100%.
+        return f"@keyframes {name} {{ {pct(b + 8)},{pct(a - 1)} {off} 0%,{pct(b)},{pct(a + 4)},100% {on} }}"
+
+    hx, hy = bw / 2, bh / 2
+    corners = [0, top, top + right, 2 * top + right]
+    hidden, shown = "{ opacity:0; }", "{ opacity:1; }"
     keyframes = [
-        f"@keyframes lit-{n} {{ 0%,{pct(a - 1)},{pct(b + 8)},100% {off} {pct(a + 4)},{pct(b)} {on} }}"
-        for n, (a, b) in spans.items()
+        lit(f"lit-{n}", c - (hx if k % 2 else hy), c + (hy if k % 2 else hx), hidden, shown)
+        for k, (n, c) in enumerate(zip(cx, corners))
     ]
-    # The agent box straddles the loop's start, so its lit span wraps past 100%.
-    a_in, a_out = perimeter - hy - tail, hx - (tail - head_len)
-    keyframes.append(
-        f"@keyframes lit-agent {{ {pct(a_out + 8)},{pct(a_in - 1)} {off}"
-        f" 0%,{pct(a_out)},{pct(a_in + 4)},100% {on} }}"
-    )
+    quiet, loud = "{ fill:var(--muted); }", "{ fill:var(--signal); }"
+    spans = [(hx, top - hx), (top + hy, top + right - hy)]
+    spans += [(a + top + right, b + top + right) for a, b in spans]
+    keyframes += [lit(f"say-{k}", a, b, quiet, loud) for k, (a, b) in enumerate(spans)]
+
+    chip_w, chip_h = 76, 30
+    chip_x = 34
+    in_x1, in_x2 = chip_x + chip_w, cx["agent"] - hx - 8
+    in_len = in_x2 - in_x1
 
     style = (
         fonts({
-            ("Barlow", "Barlow-Regular", 400): "".join(roles.values()),
-            ("JB", "JetBrainsMono", 500): "".join(cx) + "".join(signals).upper(),
+            ("Barlow", "Barlow-Regular", 400): "".join(roles.values()) + "".join(g for _, g in signals) + inlet[2],
+            ("JB", "JetBrainsMono", 500): (
+                "".join(cx) + inlet[0] + ("".join(s for s, _ in signals) + inlet[1] + centre).upper() + "01234"
+            ),
         })
         + PALETTE
         + f"""
   .cmd {{ font:500 17px JB,monospace; fill:var(--fg); }}
   .role {{ font:400 15px Barlow,sans-serif; fill:var(--muted); }}
-  .edge {{ font:500 11px JB,monospace; fill:var(--muted); letter-spacing:.16em; }}
+  .gloss {{ font:400 13px Barlow,sans-serif; fill:var(--muted); }}
+  .edge {{ font:500 11px JB,monospace; fill:var(--muted); letter-spacing:.16em; animation:{period}s linear infinite; }}
+  .num {{ font:500 10px JB,monospace; fill:var(--muted); letter-spacing:.08em; }}
+  .mark {{ font:500 11px JB,monospace; fill:var(--muted); letter-spacing:.24em; }}
   .dot {{ fill:var(--line); }}
-  .box {{ fill:var(--signal); fill-opacity:0; stroke:var(--line); stroke-width:1.5;
-          animation:{period}s linear infinite; }}
+  .box {{ fill:none; stroke:var(--line); stroke-width:1.5; }}
   .yours {{ stroke-dasharray:5 4; }}
+  .ico {{ fill:none; stroke:var(--muted); stroke-width:1.5; stroke-linecap:round; stroke-linejoin:round; }}
   .tick {{ fill:none; stroke:var(--muted); stroke-width:1.25; stroke-linecap:square; }}
   .track {{ fill:none; stroke:var(--line); stroke-width:1.5; }}
   .head {{ fill:var(--muted); }}
+  .rule {{ stroke:var(--line); stroke-width:1; }}
+  .sig {{ stroke:var(--signal); stroke-width:2; }}
+  .lit {{ opacity:0; animation:{period}s linear infinite; }}
+  .lit .box {{ stroke:var(--signal); fill:var(--signal); fill-opacity:.08; }}
+  .lit .halo {{ fill:none; stroke:var(--signal); stroke-width:3; stroke-opacity:.5; }}
+  .lit .ico {{ stroke:var(--signal); }}
+  .lit .num {{ fill:var(--signal); }}
   .pulse {{ fill:none; stroke:var(--signal); stroke-linecap:round; animation:run {period}s linear infinite; }}
-  @keyframes run {{ to {{ stroke-dashoffset:-{perimeter}; }} }}
+  .feed {{ fill:none; stroke:var(--signal); stroke-width:2.5; stroke-linecap:round;
+           stroke-dasharray:14 400; stroke-dashoffset:15; animation:feed {2 * period}s linear infinite; }}
+  @keyframes run {{ from {{ stroke-dashoffset:var(--o); }} to {{ stroke-dashoffset:calc(var(--o) - {perimeter}px); }} }}
+  @keyframes feed {{ 0%,93% {{ stroke-dashoffset:15; }} 100% {{ stroke-dashoffset:-{in_len}; }} }}
   {' '.join(keyframes)}
-  {' '.join(f'#box-{n} {{ animation-name:lit-{n}; }}' for n in cx)}
-  @media (prefers-reduced-motion: reduce) {{ .pulse, .box {{ animation:none; }} .pulse {{ display:none; }} }}
+  {' '.join(f'#lit-{n} {{ animation-name:lit-{n}; }}' for n in cx)}
+  {' '.join(f'#say-{k} {{ animation-name:say-{k}; }}' for k in range(4))}
+  @media (prefers-reduced-motion: reduce) {{ .pulse, .feed, .lit {{ display:none; }} .edge {{ animation:none; }} }}
 """
     )
 
     x0, y0 = cx["agent"], cy["agent"]
-    loop = f"M{x0} {y0} H{x0 + top} V{y0 + right} H{x0} Z"
-    pulses = pulses.replace("LOOP", loop)
+    x1, y1 = x0 + top, y0 + right
+    loop = f"M{x0} {y0} H{x1} V{y1} H{x0} Z"
     holes = "".join(
         f'<rect x="{cx[n] - hx}" y="{cy[n] - hy}" width="{bw}" height="{bh}" fill="#000"/>' for n in cx
     )
@@ -163,49 +201,81 @@ def header() -> str:
     def ticks(x: float, y: float) -> str:
         # Registration corners just outside the box, as on a drafting sheet.
         g, s = 6, 7
-        x1, y1, x2, y2 = x - hx - g, y - hy - g, x + hx + g, y + hy + g
+        xa, ya, xb, yb = x - hx - g, y - hy - g, x + hx + g, y + hy + g
         return (
-            f'<path class="tick" d="M{x1} {y1 + s}V{y1}H{x1 + s} M{x2 - s} {y1}H{x2}V{y1 + s} '
-            f'M{x2} {y2 - s}V{y2}H{x2 - s} M{x1 + s} {y2}H{x1}V{y2 - s}"/>'
+            f'<path class="tick" d="M{xa} {ya + s}V{ya}H{xa + s} M{xb - s} {ya}H{xb}V{ya + s} '
+            f'M{xb} {yb - s}V{yb}H{xb - s} M{xa + s} {yb}H{xa}V{yb - s}"/>'
         )
 
-    boxes = "".join(
-        ticks(cx[n], cy[n])
-        + f'<rect id="box-{n}" class="box{" yours" if n == "agent" else ""}" x="{cx[n] - hx}" '
-        f'y="{cy[n] - hy}" width="{bw}" height="{bh}" rx="2"/>'
-        f'<text class="cmd" x="{cx[n] - hx + 16}" y="{cy[n] - 3}">{n}</text>'
-        f'<text class="role" x="{cx[n] - hx + 16}" y="{cy[n] + 19}">{roles[n]}</text>'
-        for n in cx
-    )
-    heads = [
-        (cx["stoat"] - hx - 2, y0, 0),
-        (cx["stoat"], cy["midwire"] - hy - 2, 90),
-        (cx["docket"] + hx + 2, cy["docket"], 180),
-        (x0, y0 + hy + 2, 270),
-    ]
+    def box(n: str, k: int) -> str:
+        bx, by = cx[n] - hx, cy[n] - hy
+        yours = " yours" if n == "agent" else ""
+        rect = f'x="{bx}" y="{by}" width="{bw}" height="{bh}" rx="2"'
+        icon = f'<path class="ico" d="{ICONS[n]}" transform="translate({bx + 16} {cy[n] - 10})"/>'
+        num = f'<text class="num" x="{bx + bw - 10}" y="{by + 16}" text-anchor="end">0{k + 1}</text>'
+        # The lit state is a second copy faded in over the first, so one
+        # opacity keyframe drives the border, tint, icon and number together.
+        return (
+            ticks(cx[n], cy[n])
+            + f'<rect class="box{yours}" {rect}/>{icon}{num}'
+            f'<g class="lit" id="lit-{n}"><rect class="halo" {rect} filter="url(#bloom)"/>'
+            f'<rect class="box{yours}" {rect}/>{icon}{num}</g>'
+            f'<text class="cmd" x="{bx + 50}" y="{cy[n] - 3}">{n}</text>'
+            f'<text class="role" x="{bx + 50}" y="{cy[n] + 19}">{roles[n]}</text>'
+        )
+
+    boxes = "".join(box(n, k) for k, n in enumerate(cx))
+    head = '<path class="head" d="M0 0 L-8 -4.5 L-8 4.5 Z" transform="translate({} {}) rotate({})"/>'
     arrows = "".join(
-        f'<path class="head" d="M0 0 L-8 -4.5 L-8 4.5 Z" transform="translate({x} {y}) rotate({r})"/>'
-        for x, y, r in heads
+        head.format(x, y, r)
+        for x, y, r in [
+            (x1 - hx - 2, y0, 0),
+            (x1, y1 - hy - 2, 90),
+            (x0 + hx + 2, y1, 180),
+            (x0, y0 + hy + 2, 270),
+            (in_x2 + 6, y0, 0),
+        ]
     )
     mid_x, mid_y = x0 + top / 2, y0 + right / 2
-    edges = (
-        f'<text class="edge" x="{mid_x}" y="{y0 - 10}" text-anchor="middle">{signals[0].upper()}</text>'
-        f'<text class="edge" x="{cx["stoat"] + 14}" y="{mid_y + 4}">{signals[1].upper()}</text>'
-        f'<text class="edge" x="{mid_x}" y="{cy["docket"] + 22}" text-anchor="middle">{signals[2].upper()}</text>'
-        f'<text class="edge" x="{x0 - 14}" y="{mid_y + 4}" text-anchor="end">{signals[3].upper()}</text>'
+    places = [
+        (mid_x, y0 - 10, "middle", mid_x, y0 + 20, "middle"),
+        (x1 + 14, mid_y - 4, "start", x1 + 14, mid_y + 15, "start"),
+        (mid_x, y1 + 22, "middle", mid_x, y1 - 11, "middle"),
+        (x0 - 14, mid_y - 4, "end", x0 - 14, mid_y + 15, "end"),
+    ]
+    edges = "".join(
+        f'<text class="edge" id="say-{k}" x="{ex}" y="{ey}" text-anchor="{ea}">{name.upper()}</text>'
+        f'<text class="gloss" x="{gx}" y="{gy}" text-anchor="{ga}">{gloss}</text>'
+        for k, ((name, gloss), (ex, ey, ea, gx, gy, ga)) in enumerate(zip(signals, places))
     )
+    chip_cx = chip_x + chip_w / 2
+    feed = (
+        f'<rect class="box" x="{chip_x}" y="{y0 - chip_h / 2}" width="{chip_w}" height="{chip_h}" rx="15"/>'
+        f'<text class="cmd" x="{chip_cx}" y="{y0 + 5}" text-anchor="middle" style="font-size:14px">{inlet[0]}</text>'
+        f'<text class="gloss" x="{chip_cx}" y="{y0 + chip_h / 2 + 18}" text-anchor="middle">{inlet[2]}</text>'
+        f'<text class="edge" x="{(in_x1 + in_x2) / 2 + 1}" y="{y0 - 10}" text-anchor="middle" '
+        f'style="animation:none">{inlet[1].upper()}</text>'
+        f'<path class="track" d="M{in_x1} {y0}H{in_x2}"/><path class="feed" d="M{in_x1} {y0}H{in_x2}"/>'
+    )
+    mark = (
+        f'<line class="rule" x1="{mid_x - 44}" y1="{mid_y - 13.5}" x2="{mid_x + 44}" y2="{mid_y - 13.5}"/>'
+        f'<line class="sig" x1="{mid_x - 44}" y1="{mid_y - 13}" x2="{mid_x - 26}" y2="{mid_y - 13}"/>'
+        f'<text class="mark" x="{mid_x + 1.5}" y="{mid_y + 6}" text-anchor="middle">{centre.upper()}</text>'
+    )
+    full = f'maskUnits="userSpaceOnUse" x="0" y="0" width="{W}" height="{H}"'
     body = f"""<defs>
   <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><circle class="dot" cx="10" cy="10" r="1"/></pattern>
   <radialGradient id="fade" cx="50%" cy="50%" r="55%"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
-  <mask id="vignette" maskUnits="userSpaceOnUse" x="0" y="0" width="{W}" height="{H}"><rect width="{W}" height="{H}" fill="url(#fade)"/></mask>
-  <mask id="gaps" maskUnits="userSpaceOnUse" x="0" y="0" width="{W}" height="{H}"><rect width="{W}" height="{H}" fill="#fff"/>{holes}</mask>
+  <filter id="bloom" filterUnits="userSpaceOnUse" x="0" y="0" width="{W}" height="{H}"><feGaussianBlur stdDeviation="4"/></filter>
+  <mask id="vignette" {full}><rect width="{W}" height="{H}" fill="url(#fade)"/></mask>
+  <mask id="gaps" {full}><rect width="{W}" height="{H}" fill="#fff"/>{holes}</mask>
 </defs>
 <rect width="{W}" height="{H}" fill="url(#grid)" mask="url(#vignette)"/>
-<g mask="url(#gaps)"><path class="track" d="{loop}"/>{pulses}</g>
-{arrows}{edges}{boxes}"""
+<g mask="url(#gaps)"><path class="track" d="{loop}"/>{pulses.replace("LOOP", loop)}</g>
+{feed}{arrows}{edges}{mark}{boxes}"""
     label = (
-        "A feedback loop: the agent acts in stoat, midwire checks what changed, "
-        "docket records the decision, and the record feeds the agent's next step."
+        "A feedback loop: flocc hands the agent an issue, the agent acts in stoat, midwire checks "
+        "what changed, docket records the decision, and the record feeds the agent's next step."
     )
     return svg(W, H, label, style, body)
 

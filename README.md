@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/header.svg" width="800" alt="A feedback loop: the agent acts in stoat, midwire checks what changed, docket records the decision, and the record feeds the agent's next step.">
+  <img src="assets/header.svg" width="800" alt="A feedback loop: flocc hands the agent an issue, the agent acts in stoat, midwire checks what changed, docket records the decision, and the record feeds the agent's next step.">
 </p>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 ### WHAT I'M BUILDING
 
-Most of my work comes back to one gap: an agent calls a tool, reads its own report of what happened, and carries on, so nothing outside the agent ever checks the result. **[stoat](https://github.com/NovusEdge/stoat)** gives the agent a disposable machine to act in, **[midwire](https://github.com/NovusEdge/midwire)** measures what actually changed, and **[docket](https://github.com/NovusEdge/docket)** keeps the decisions and their reasons so the next session starts from them.
+Most of my work comes back to one gap: an agent calls a tool, reads its own report of what happened, and carries on, so nothing outside the agent ever checks the result. **[stoat](https://github.com/NovusEdge/stoat)** gives the agent a disposable machine to act in, **[midwire](https://github.com/NovusEdge/midwire)** measures what actually changed, and **[docket](https://github.com/NovusEdge/docket)** keeps the decisions and their reasons so the next session starts from them. **[flocc](https://github.com/NovusEdge/flocc)** puts the agent to work in the first place: label a Linear issue, and a host picks it up and opens a draft PR.
 
 Lately the same question has moved to hardware: how a robot confirms that its action landed, what it should remember, and which limits it cannot talk its way past.
 
@@ -35,6 +35,7 @@ Lately the same question has moved to hardware: how a robot confirms that its ac
 - **[STOAT](https://github.com/NovusEdge/stoat):** local QEMU VMs for people and agents. Disposable Alpine sessions and persistent Linux guests from plain TOML, driven through a TUI, a JSON CLI or MCP tools. One Go binary.
 - **[MIDWIRE](https://github.com/NovusEdge/midwire):** closed-loop agency. Confirms that a tool call's side effect landed before the agent takes its next step.
 - **[DOCKET](https://github.com/NovusEdge/docket):** an append-only decision ledger for coding agents. When a conversation resumes or gets compacted, it briefs the agent on what was decided, why, and what is still open.
+- **[FLOCC](https://github.com/NovusEdge/flocc):** runs Claude Code sessions on Linear issues. A host you run picks up a labelled issue, works on it in its own git worktree and opens a draft PR. The agents never push; the service does.
 - **[OPENCODE-NATIVE-SWARMS](https://github.com/NovusEdge/opencode-native-swarms):** permission-scoped background-agent workflows for OpenCode. It can research, review and run narrow checks, and has no path to edits, pushes or external writes.
 - **[SKILLOPT](https://github.com/NovusEdge/SkillOpt):** trains reusable natural-language skills for frozen agents through trajectory-driven edits and validation-gated updates.
 - **MONEY-MESH** (private): a leaderless mesh of self-replicating earning agents under an immutable core. A Cedar policy engine sits at the enforcement point, revenue counts only from ground truth, and the spend cap is enforced by arithmetic.
@@ -44,12 +45,14 @@ Lately the same question has moved to hardware: how a robot confirms that its ac
 <summary><b>02 // CLAUDE CODE PLUGINS</b></summary>
 <br>
 
-- **[GLOWUP](https://glowup.khimani.dev/):** a side pane for changed files, subagents and context use, JSON theme packs, and a pixel pet named Clawd who acts out what Claude is doing.
+- **[GLOWUP](https://glowup.khimani.dev/):** a side pane for changed files, diffs, subagents, context use and the Spotify track playing, JSON theme packs, and a pixel pet named Clawd who acts out what Claude is doing.
 - **[A2A-MOD](https://github.com/NovusEdge/a2a-mod):** hands tasks from Claude Code to non-Claude agents over A2A, keeps working, and picks up the results.
 - **[PALPATINE](https://github.com/NovusEdge/palpatine):** a "strategic" advisor for Claude Code and Codex. It names the actual problem and the actions to take, in 50 words.
 - **[CURT](https://github.com/NovusEdge/curt):** editing guidance and a heuristic prose linter that cuts AI slop and keeps the author's voice.
-- **[READABLE-RESPONSES](https://github.com/NovusEdge/readable-responses):** a readability hook and a de-slopify skill for Claude Code and Codex CLI, because Opus 5 yaps too much.
-- **[POLISHED-ARTIFACTS](https://github.com/NovusEdge/polished-artifacts):** one design language for Claude artifacts, in Carbon and Apple looks, with a lint for rendered pages.
+- **[READABLE-RESPONSES](https://github.com/NovusEdge/readable-responses):** a readability hook and a de-slopify skill for Claude Code, Codex CLI and Hermes Agent, because Opus 5 yaps too much.
+- **[DRYGATE](https://github.com/NovusEdge/drygate):** warns when an agent's turn adds duplicated code, and sweeps for functions that reinvent the standard library. Claude Code and Codex.
+- **[POLISHED-ARTIFACTS](https://github.com/NovusEdge/polished-artifacts):** one design language for Claude artifacts, in seven looks, with Manim and LikeC4 skills and a lint for rendered pages.
+- **[MOTION-LAB](https://github.com/NovusEdge/motion-lab):** a skill for directing code-rendered motion. Claude writes a numeric brief, bans its default look by name and reviews the render by frame number.
 - **[SOFTWARE-ARCHITECTURE](https://github.com/NovusEdge/software-architecture):** a sourced architecture reference for Claude Code, with a command that reviews a repo's design docs and decision ledger.
 </details>
 
@@ -83,6 +86,7 @@ Memory that separates what an agent observed from what it concluded and what it 
 - [x] Can stratified, warrant-backed memory run locally? *(LeAP, shipped as [Veil](https://github.com/engrammic-ai/veil))*
 - [ ] Can an agent confirm its side effects before it continues? *([midwire](https://github.com/NovusEdge/midwire), in progress)*
 - [ ] Generation got cheap and verification didn't. What closes that gap? *([essay](https://khimani.dev/blog/epistemic-collapse/))*
+- [ ] Can an agent have a sense of time: when it is, how long its own work takes, and how much has passed between events? *(sundial, in progress)*
 - [ ] Can autonomy be bounded by a policy engine and arithmetic, rather than by the prompt?
 - [ ] What should a robot remember? Object states, failures and maps, retrieved under partial observability without surfacing stale entries.
 - [ ] World action models: predicting the consequences of an action in latent space instead of rendering future frames.
