@@ -84,9 +84,9 @@ Memory that separates what an agent observed from what it concluded and what it 
 - [x] Can decisions outlive the session that made them? *([docket](https://github.com/NovusEdge/docket))*
 - [x] Can skills be learned in text space, without touching weights? *([SkillOpt](https://github.com/NovusEdge/SkillOpt))*
 - [x] Can stratified, warrant-backed memory run locally? *(LeAP, shipped as [Veil](https://github.com/engrammic-ai/veil))*
+- [x] Can an agent have a sense of time: when it is, how long its own work takes, and how much has passed between events? *(sundial, [preprint](https://doi.org/10.5281/zenodo.23921544))*
 - [ ] Can an agent confirm its side effects before it continues? *([midwire](https://github.com/NovusEdge/midwire), in progress)*
 - [ ] Generation got cheap and verification didn't. What closes that gap? *([essay](https://khimani.dev/blog/epistemic-collapse/))*
-- [ ] Can an agent have a sense of time: when it is, how long its own work takes, and how much has passed between events? *(sundial, [preprint](https://doi.org/10.5281/zenodo.23921544))*
 - [ ] Can autonomy be bounded by a policy engine and arithmetic, rather than by the prompt?
 - [ ] What should a robot remember? Object states, failures and maps, retrieved under partial observability without surfacing stale entries.
 - [ ] World action models: predicting the consequences of an action in latent space instead of rendering future frames.
